@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="past-paper.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<h1 class="heading">19家普化考古</h1>
+
+<br>
+<button type="button" class="collapsible"><strong>110年</strong></button>
+<div class="content">
+    <button type="button" class="collapsible"><h3>Q1. Please name the following compounds (10%)<br> a.NaBH<sub>4</sub>&nbsp;&nbsp;&nbsp;b.KNO<sub>3</sub>     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c.Ca(OH)<sub>2</sub>
+    <br> d.Ce<sub>2</sub>O<sub>3</sub>&nbsp;&nbsp;&nbsp;e.PbCrO<sub>4</sub>&nbsp;&nbsp;&nbsp;&nbsp;f. N<sub>2</sub>O<sub>3</sub>
+    <br> g.XeO<sub>3</sub> &nbsp;&nbsp;&nbsp;&nbsp;h.CuS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.NH<sub>4</sub>Cl &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;j.Co(H<sub>2</sub>PO<sub>4</sub>)<sub>3</sub>
+    </h3></button>
+<div class="content">
+ <p>a.Sodium tetrahydridoborate&nbsp;&nbsp;&nbsp;b.Potassiun Nitrate&nbsp;&nbsp;&nbsp;c.Calcium hydroxide</p>
+ <p>d.Cerium Oxide&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; e.Lead(II) Chromate&nbsp;&nbsp;&nbsp;f.Ditrogen Trioxide</p>
+ <p>g.Xenon Oxide&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;h.Copper(II)Sulfate&nbsp;&nbsp;&nbsp;i.Ammonium Chloride&nbsp;&nbsp;&nbsp;j.Cobalt(III)Ditrogen Phosphate</p>
+</div>
+  
+   <button type="button" class="collapsible"><h3>Q2</h3></button>
+<div class="content">
+ <img src="101-A3.jpg">
+</div>
+ 
+  <button type="button" class="collapsible"><h3>Q3.Please calculate the [H+] of a 1 × 10<sup>-4</sup> M solution (Ka=6.2×10<sup>-10</sup>) [10%]</h3></button>
+<div class="content">
+ <img src="101-A3.jpg" style="width: 75%">
+</div>
+
+<button type="button" class="collapsible"><h3>Q4. Methanol can be produced by the reaction of carbon monoxide with hydrogen. Hydrogen at STP flows into a reactor at a rate of 16.0L/min. Carbon monoxide at STP flows into the same reaction at a rate of 25.0L/min. If 5.30g of methanol is produced per minute, what is percentage yield of the reaction? [10%]</h3></button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button type="button" class="collapsible"><h3>Q5. Please give a definition of the following terms [10%] <br> a) Schrondinger equation <br> b) degenerate for orbital <br> c) the third law of thermodynamic <br> d) uncertainty principle <br> e) the order of the second ionization energy for the period 3 elements</h3></button>
+<div class="content">
+  <p>a) Schrodinger equation is given HΨ=EΨ (1)</p>
+  <p>b) Degenerate for orbitals means that the energy for the orbitals across that energy level are the same. (2)</p>
+  <p>c) The entropy for a perfect crystal at 0K is 0.(2)</p>
+  <p>d) Uncertainty principle is given Δx ×Δp&ge;ħ/2, which means that when you are certain about the position of the particle, you will not be certain about the momentum. Vice versa, when you are certain about the momentum, you are not certain about the position of the particle. (2)</p>
+  <p>e) Mg &lt; Si &lt; Al &lt; P &lt; Cl &lt; S &lt; Ar &lt; Na (2)</p>
+</div>
+
+ <button type="button" class="collapsible"><h3>Q6</h3></button>
+<div class="content">
+ <img src="101-A3.jpg">
+</div>
+
+ <button type="button" class="collapsible"><h3>Q7.</h3><img src=""></button>
+<div class="content">
+ <img src="101-A3.jpg">
+</div>
+
+<button type="button" class="collapsible"><h3 style="text-align: center"><img src="101-Q8.png" style="width: 75%"></h3></button>
+<div class="content">
+ <img src="101-A8.jpg">
+</div>
+
+<button type="button" class="collapsible"><h3 style="text-align: center"><img src="101-Q9.jpg" style="width: 75%"></h3></button>
+<div class="content">
+ <img src="101-A9.jpg">
+</div>
+
+</div>
+</body>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</html>
